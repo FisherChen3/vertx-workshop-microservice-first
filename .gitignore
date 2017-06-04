@@ -1,0 +1,36 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+log/
+target/
+
+:men:*
+*.swap
+**.iml
+*.idea
+**/target/
+**/generated/
+**/groovy/
+localrepo.*/
+devops-scripts/
+.classpath
+.project
+**/.settings
+.vertx
+**/asciidoc/
+**/*-js/
+**.versionsBackup
+**/*.jks
+build.out
+env.properties
+io.yml
+.effective-pom.xml
+ibid/
+
+**/out/
+
+**/file-uploads/
+cd
