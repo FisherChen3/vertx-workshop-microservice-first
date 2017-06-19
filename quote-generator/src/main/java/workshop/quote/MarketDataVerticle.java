@@ -9,6 +9,8 @@ import java.util.Random;
 
 /**
  * Created by Fisher on 6/11/2017.
+ * this verticle will get the data from config file and generate the quote data periodically
+ * this verticle is a message source
  */
 public class MarketDataVerticle extends BaseRxMicroServiceVerticle {
 

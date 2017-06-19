@@ -11,6 +11,20 @@
 
     <artifactId>portfolio-service</artifactId>
 
+    <properties>
+        <!-- Main verticle -->
+        <main.verticle>workshop.portfolio.PortfolioVerticle</main.verticle>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <!-- This dependency provide some classes useful for the workshop -->
+            <groupId>com.xiongfei</groupId>
+            <artifactId>vertx-workshop-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>

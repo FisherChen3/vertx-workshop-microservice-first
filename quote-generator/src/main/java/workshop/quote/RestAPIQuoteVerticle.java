@@ -12,6 +12,7 @@ import java.util.Map;
 
 /**
  * Created by Fisher on 6/11/2017.
+ * this verticle simply expose the quote data on HTTP REST
  */
 public class RestAPIQuoteVerticle extends BaseRxMicroServiceVerticle {
 
